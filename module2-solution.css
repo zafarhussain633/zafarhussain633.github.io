@@ -4,100 +4,84 @@
 	margin: 0px;
 }
 h1{
-	margin-top: 20px;
-	margin-left: 45%; 
+	width: 100%;
+	height: 60px;
+	text-align: center;
 }
 section{
-	margin-top: 35px;
-}
-p{
-	padding: 35px;
+	margin-top:30px;
 }
 .s1{
 	border: solid black;
 	background-color: #FF9933;
-	width: 33%;
-	height: 250px;
-	float: left;
-	margin-left: 5px;
-}
-.b1{
-	border: solid black;
-	background-color: pink;
-	width: 30%;
-	height: 30px;
-	float: right;
-	margin-right: 0px;
-	font-size: 20px;
-	padding-left: 25px;	
+	width: auto;
+	height: 100%;
+	position: relative;
 }
 .s2{
 	border: solid black;
 	background-color: #FF115F;
-	width: 30%;
-	height: 250px;
-	float: left;
-	margin-left: 5px;
-}
-.b2{
-	border: solid black;
-	background-color: pink;
-	width: 30%;
-	height: 30px;
-	float: right;
-	margin-right: 0px;
-	font-size: 20px;
-	padding-left: 25px;	
+	width: auto;
+	height: 100%;
+	position: relative;
 }
 .s3{
 	border: solid black;
 	background-color:#138878;
-	width: 30%;
-	height: 250px;
-	float: left;
-	margin-left: 5px;
+	width: auto;
+	height: 100%;
+	position: relative;
+	
 }
-.b3{
+.b1,.b2,.b3{
 	border: solid black;
 	background-color: pink;
-	width: 30%;
-	height: 30px;
+	width: auto;
+	height: 100%;
 	float: right;
-    margin-right: 0px;
-	font-size: 20px;
-	padding-left: 25px;	
+
 }
 
-/*for desktop the the above css code is default */
+#p1{
+	text-align: center;
+	font-weight: bold;
+	padding: 1px;
+	box-sizing: border-box;
 
+}
+
+p{
+	padding: 20px;
+	font-family: cursive;
+	font-weight: bold;
+}
+/*for desktop the the above css code is default */
+@media screen and (min-width: 992px)
+{
+	.s1,.s2,.s3{
+		width: 30%;
+        float: left;
+        margin-left: 30px;
+	}
+}
 /*for mobile device below here */
 @media screen and (max-width:767px)
 {
-	[class*="s"]
-	{
+	.s1,.s2,.s3{
     width: 100%;
-    margin: 10px;
   }
 }
 
 /* for tablet device below here  */
 @media screen and (min-width: 768px) and (max-width: 991px)
 {
-	[class*="s1"]
-	{
+	 .s1,.s2,.s3{
 		width: 45%;
-		margin: 10px;
+		float: left;
+		margin-left: 38px;
+		margin-bottom: 38px;
 	}
-
-	[class*="s2"]
-	{
-		width: 45%;
-		margin: 10px;
-	}
-
-	[class*="s3"]
-	{
+	.s3{
 		width: 100%;
-		margin: 10px;
+		margin: auto;
 	}
-}
