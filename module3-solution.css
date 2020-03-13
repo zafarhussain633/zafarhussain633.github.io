@@ -34,7 +34,7 @@
 
 		 }
 		 .hover:hover{
-		 	background: linear-gradient(50deg,red,skyblue,orange,yellow ,skyblue,blue,pink);
+		 	background: linear-gradient(50deg,gray,skyblue);
 		 	font-family: serif;
 
 		 }
