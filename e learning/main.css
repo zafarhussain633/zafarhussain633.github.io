@@ -1,0 +1,54 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F4F4;
+
+
+}
+#ssbutton{
+	border: 2px solid #f2f2f2;
+	color: black;
+	border-radius: 10px;
+	font-weight: bold;
+}
+#ssbutton:hover{
+	background-color:grey;
+	font-size: 1.1rem; 
+}
+#sbutton{
+  font-weight: bold;
+  color: black;
+
+
+}
+#sbutton:hover{
+	font-size: 1.1em;
+	border-bottom: 1px solid black;
+	box-shadow: 1px 1px 5px 0px;
+}
+ 
+#footer-image{
+box-shadow: 3px 3px 20px 0px black;
+}
+
+#facebook{
+	background-color: #4267B2;
+}
+#github{
+	 background-color: #211F1F;
+}
+#twitter{
+	background-color: #00acee;
+}
+#linked-in{
+	background-color: #2867B2;
+}
+
+@media only screen and (min-width: 550px) {
+  #ssbutton {
+    margin-left: 400px;
+  }
+}
+
+
