@@ -61,9 +61,14 @@ box-shadow: 1px 1px 11px 3px black;
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   #ssbutton {
     margin-left: 400px;
+  }
+}
+@media (min-width: 900px) {
+  #country-food {
+    display: inline-flex;
   }
 }
 
