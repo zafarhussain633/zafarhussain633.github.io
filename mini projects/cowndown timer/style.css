@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: aliceblue;
+    font-family: "Poopins" , sans-serif;
+    color: rgb(217, 255, 0);
+}
+
+.countdown-container{
+   
+    padding-top: 160px;
+    text-align: center;
+}
+h1{
+ font-size: 3rem;
+
+}
+
+.timer-container{  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.timer{
+    margin: 1rem;
+    margin-bottom: 0.4rem;
+    font-size: 1.5rem;
+    border: 3px solid #00ff85;
+    background-color:  ;
+    background-color: black;
+    padding: 0.6rem;
+    font-weight: 1000;
+    font-size: 2rem;
+}
+span{
+    color: crimson;
+    font-weight: 600;
+}
+
+#startButton{
+    background-color: black;
+    padding: 1rem;
+    margin: 1.5rem;
+    font-size: medium;
+    font-weight: bold;
+    color:rgb(217, 255, 0);
+    border: 3px solid #00ff85;
+}
+#stopButton{
+    background-color: #fc1e1e75;
+    padding: 10px;
+    margin: 0.6rem;
+    font-size: medium;
+    font-weight: bold;
+    color:white;
+    border-radius: 14px;
+    display: none;
+    width: 100px;
+    border-color: rgb(217, 255, 0);
+}
+
+#restartButton{
+    background-color: rgba(37, 233, 37, 0.342);
+    padding: 10px;
+    margin: 0.6rem;
+    font-size: medium;
+    font-weight: bold;
+    color:white;
+    border-radius: 14px;
+    display: none;
+    width: 100px;
+    border-color: rgb(217, 255, 0);
+    
+}
+
+
+
+
+
+
+
+
