@@ -1,5 +1,5 @@
 var countdownVariable;
-const NewYearDate = new Date('10 nov 2021');
+const NewYearDate = new Date('1 jan 2021');
 document.getElementById("startButton").addEventListener("click", Countdown);
 document.getElementById("stopButton").addEventListener("click", stopFunction);
 document.getElementById("restartButton").addEventListener("click", Countdown);
