@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+body{
+    font-family: 'Nerko One', cursive;
+    background: url(https://bit.ly/2JIPIoK);
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+.dice{
+    text-align: center;
+    margin-top: 11%;
+    
+}
+#dice-image{
+    width: 10rem;
+    border-radius: 30%;
+    box-shadow: 0 8px 6px -6px white;
+}
+p{
+    color: rgba(230, 16, 58, 0.959);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+h1{
+    color: rgba(0, 0, 0, 0.61);
+}
