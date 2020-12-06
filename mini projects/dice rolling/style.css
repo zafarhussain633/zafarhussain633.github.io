@@ -27,3 +27,7 @@ p{
 h1{
     color: rgba(0, 0, 0, 0.61);
 }
+footer{
+margin-bottom: 10%;
+text-align: center;
+}
