@@ -56,5 +56,12 @@ footer{
     color: rgba(255, 255, 255, 0.212);
     margin: 1rem;
 }
+@media(max-width:500px){
+    .drum-box{
+       width: 2rem;
+       height: 2rem;
+       margin: 8px;
+    }
+}
 
 
