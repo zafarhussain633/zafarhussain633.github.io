@@ -10,7 +10,7 @@ for(const item of selector){
 
 // Funtion for keypresss 
  document.addEventListener("keypress" , (event)=>{
-     makeSound(event.key);
+     makeSound((event.key).toUpperCase());
      drumAnimation((event.key).toUpperCase());
  });
 
