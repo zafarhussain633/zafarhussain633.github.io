@@ -50,4 +50,9 @@ h1{
     background: url("images/H.jpg");
 }
 
+footer{
+    color: rgba(255, 255, 255, 0.212);
+    margin: 1rem;
+}
+
 
