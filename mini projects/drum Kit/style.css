@@ -1,0 +1,53 @@
+body{
+    background-color: #222831;
+}
+#drum-Container{
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.drum-box{
+    padding: 3rem;
+    margin: 2px;
+    border: 3px solid rgb(218, 15, 56);
+    color: rgb(211, 12, 12);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.drumAnimation{
+  width: 100px;
+  border: 8px solid rgb(255, 137, 2);
+  transition: border 0.2s;
+}
+h1{
+    color: rgba(245, 44, 18, 0.719);
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+}
+
+.A{
+    background: url("images/crash.jpeg");
+}
+.S{
+    background: url("images/kick.jpg");
+    background-attachment: fixed;
+
+}
+.D{
+    background: url("images/D.jpg");
+    background-attachment: fixed;
+}
+.F{
+    background: url("images/F.jpg");
+    background-attachment: fixed;
+}
+
+.G{
+    background: url("images/G.jpg");
+}
+.H{
+    background: url("images/H.jpg");
+}
+
+

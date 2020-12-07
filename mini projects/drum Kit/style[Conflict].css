@@ -1,0 +1,13 @@
+#drum-Container{
+    text-align: center;
+    margin-top: 6rem;
+}
+.drum-kit {
+ display: flex;
+ justify-content: center;
+}
+
+.drum-box{
+    padding: 2.5rem;
+    margin: 1.6rem;
+}
