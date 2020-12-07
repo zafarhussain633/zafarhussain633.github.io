@@ -3,13 +3,12 @@ body{
 }
 #drum-Container{
     text-align: center;
-    margin-top: 2rem;
     display: flex;
     justify-content: center;
 }
 .drum-box{
     padding: 3rem;
-    margin: 2px;
+    margin: 3px;
     border: 3px solid rgb(218, 15, 56);
     color: rgb(211, 12, 12);
     font-size: 2rem;
@@ -28,26 +27,29 @@ h1{
 
 .A{
     background: url("images/crash.jpeg");
+    background-repeat: no-repeat;
 }
 .S{
     background: url("images/kick.jpg");
-    background-attachment: fixed;
+    background-repeat: no-repeat;
 
 }
 .D{
     background: url("images/D.jpg");
-    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .F{
     background: url("images/F.jpg");
-    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .G{
     background: url("images/G.jpg");
+    background-repeat: no-repeat;
 }
 .H{
     background: url("images/H.jpg");
+    background-repeat: no-repeat;
 }
 
 footer{
