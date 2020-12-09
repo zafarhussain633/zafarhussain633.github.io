@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #f9d29d;
+background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+
+}
+
+
+.result-area{
+    background-color: rgba(0, 0, 0);
+    text-align: right;
+    height: 5rem;
+    padding: 1.5rem;
+    box-shadow: inset 0px 0px 25px 15px rgba(39, 39, 39, 0.74);
+}
+
+h1,span{
+    margin: 0px;
+    padding: 10px 10px 0px 0px; 
+    color: rgb(236, 48, 48); 
+}
+span{
+    color: rgba(54, 241, 247, 0.747); 
+    font-weight: bold;
+}
+.container{
+    padding: 1rem;
+    margin-top: 10%;
+    box-shadow: inset 0px 0px 2px 20px rgb(39, 39, 39);
+    background: rgba(224, 214, 214, 0.699)
+}
+.numberButton{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+#ClearAndSubmit{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+button{
+    padding: 1.6rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.number,.devide,.multiply,.add,.subtract{
+    background-color: rgba(0, 0, 0, 0.89);
+    border: rgb(0, 0, 0) solid 1px;
+    color: rgba(255, 0, 0, 0.897);
+    font-size: 1.6rem;
+}
+
+.number{
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 1rem;
+}
+.clearButton{
+    background-color: rgba(0, 0, 0, 0.89);
+    border: rgb(0, 0, 0) solid 1px;
+    color: rgba(36, 236, 243, 0.808); 
+}
+.equalButton{
+    background-color: rgba(22, 206, 166, 0.89);
+    border: rgb(0, 0, 0) solid 1px;
+    color: rgba(0, 8, 8, 0.808); 
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.animation{
+    background-color: #2d8799;
+    color: #d0e8f2;
+
+}
+
+/*  light mode code */
+.numberlight,.devidelight,.multiplylight,.addlight,.subtractlight{
+    background-color: rgba(255, 255, 255, 0.788);
+    border: rgb(231, 218, 218) solid 1px;
+    color: rgba(121, 194, 207, 0.897);
+    font-size: 1.6rem;
+}
+
+p{
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+/* media query  */
+@media(min-width:600px){
+    .container{
+        width: 40%;
+        margin: auto;
+        padding: 5%;
+        box-shadow: inset 0px 0px 3px 70px rgb(39, 39, 39);
+    }
+    button{
+        padding: 1.5rem;
+    }
+}
+footer{
+    text-align: right;
+    color: rgba(5, 4, 7, 0.87);
+}
