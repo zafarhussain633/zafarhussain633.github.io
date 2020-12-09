@@ -90,7 +90,7 @@ p{
         width: 50%;
         margin: auto;
         padding: 4%;
-        box-shadow: inset 0px 0px 3px 65px rgb(39, 39, 39);
+        box-shadow: inset 0px 0px 3px 10px rgb(39, 39, 39);
     }
     button{
         padding: 1.5rem;
