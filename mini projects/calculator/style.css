@@ -11,7 +11,7 @@ background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
     background-color: rgba(0, 0, 0);
     text-align: right;
     height: 5rem;
-    padding: 1.5rem;
+    padding: 1.3rem;
     box-shadow: inset 0px 0px 25px 15px rgba(39, 39, 39, 0.74);
 }
 
@@ -26,7 +26,7 @@ span{
 }
 .container{
     padding: 1rem;
-    margin-top: 10%;
+    margin-top: 2%;
     box-shadow: inset 0px 0px 2px 20px rgb(39, 39, 39);
     background: rgba(224, 214, 214, 0.699)
 }
@@ -40,7 +40,7 @@ span{
     grid-template-columns: 50% 50%;
 }
 button{
-    padding: 1.6rem;
+    padding: 1.4em;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -49,7 +49,7 @@ button{
     background-color: rgba(0, 0, 0, 0.89);
     border: rgb(0, 0, 0) solid 1px;
     color: rgba(255, 0, 0, 0.897);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .number{
@@ -76,14 +76,6 @@ button{
 
 }
 
-/*  light mode code */
-.numberlight,.devidelight,.multiplylight,.addlight,.subtractlight{
-    background-color: rgba(255, 255, 255, 0.788);
-    border: rgb(231, 218, 218) solid 1px;
-    color: rgba(121, 194, 207, 0.897);
-    font-size: 1.6rem;
-}
-
 p{
     cursor: pointer;
     margin-top: 0px;
@@ -95,9 +87,9 @@ p{
 /* media query  */
 @media(min-width:600px){
     .container{
-        width: 40%;
+        width: 50%;
         margin: auto;
-        padding: 5%;
+        padding: 4%;
         box-shadow: inset 0px 0px 3px 70px rgb(39, 39, 39);
     }
     button{
