@@ -69,7 +69,7 @@ document.querySelector("p").addEventListener("click",()=>{
     document.querySelector(".multiply").style.cssText="color: red; background: rgba(39, 39, 39, 0.24); border:1px solid white "
     document.querySelector(".subtract").style.cssText="color: red; background: rgba(39, 39, 39, 0.24); border:1px solid white "
     document.querySelector(".add").style.cssText="color: red; background: rgba(39, 39, 39, 0.24); border:1px solid white "
-    document.querySelector(".container").style.cssText=" box-shadow: inset 0px 0px 5px 20px grey"
+    document.querySelector(".container").style.cssText=" box-shadow: inset 0px 0px 5px 19px grey"
     document.querySelector("p").innerHTML ="refresh the page for Dark-Mode";
 
 })
