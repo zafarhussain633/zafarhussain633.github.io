@@ -40,7 +40,7 @@ span{
     grid-template-columns: 50% 50%;
 }
 button{
-    padding: 1.4em;
+    padding: 1.2rem;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -66,8 +66,8 @@ button{
     border: rgb(0, 0, 0) solid 1px;
     color: rgba(0, 8, 8, 0.808); 
     font-weight: bold;
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 0.9rem;
 }
 
 .animation{
