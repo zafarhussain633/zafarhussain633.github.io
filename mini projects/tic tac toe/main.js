@@ -1,6 +1,8 @@
 var count = 0;
 var temp ;
 var audio = new Audio("tada.mp3")
+var audio2 = new Audio("0.mp3")
+var audio3 = new Audio("x.mp3")
 const getDiv = document.querySelectorAll(".main>div");
 
     for(let i of getDiv){
@@ -17,14 +19,16 @@ function fill(input){
     if(count<9) {
     if(count%2==0){
         input.innerHTML = '0'
+        input.style.color = "green";
+        audio2.play();
     }else{
         input.innerHTML = "X"
         input.style.color = "red";
+        audio3.play();
     }
     count++;
 }else{
     alert("match draw")
-    reset();
 }
 
 }   
