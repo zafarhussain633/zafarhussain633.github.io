@@ -62,13 +62,13 @@ span{
 .animation{
         animation-name: example;
         animation-duration: 0.4s;
-        color: #32CD32;
+        color: #fdb827;
       }
 @keyframes example {
         from {font-size: 0.2rem;
              color: rgb(255, 0, 0);}
         to {font-size: 2rem;
-            color:#32CD32;}
+            color:#fdb827;}
       }
 footer{
     text-align: right;
