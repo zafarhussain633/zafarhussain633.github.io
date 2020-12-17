@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-color: #a19a972d;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(10px,80px);
+    width: 250px;
+    margin: auto;
+
+}
+h1{
+    text-align: center;
+    color: rgba(252, 0, 0, 0.76);
+    margin: 3rem;
+    
+}
+
+div>div{
+    border: 2.2px solid rgba(0, 0, 0, 0.884);
+    color: rgba(0, 0, 0, 0.651);
+    padding: 1.5rem;
+    font-size: 2.2rem ;
+    text-align: center;
+}
+
+.div1,.div2,.div3{
+    border-top: none;
+}
+.div1,.div4,.div7{
+    border-left: none;
+}
+.div7,.div8,.div9{
+    border-bottom: none;
+}
+.div3,.div6,.div9{
+    border-right: none;
+}
+
+
+.refresh{
+     display: grid;
+     grid-column: span 3;
+     border: none;
+     margin-top: 1rem;
+
+}
+
+span{
+    display: block;
+    font-size: 1.3rem;
+    margin: 4px;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.animation{
+        animation-name: example;
+        animation-duration: 0.4s;
+        color: #36ee25;
+      }
+@keyframes example {
+        from {font-size: 0.2rem;
+             color: rgb(255, 0, 0);}
+        to {font-size: 2rem;
+            color:#2beb1a;}
+      }
+footer{
+    text-align: right;
+    margin: 20% 4%;
+    color: rgba(0, 0, 0, 0.603);
+}
