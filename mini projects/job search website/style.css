@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Potta+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#nav-item {
+  margin-left: 2.5rem;
+
+}
+#nav-item li a{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    margin-left: 1.5rem;
+}
+li a:hover{
+    border-bottom: 2px solid white;
+}
+#nav-item-button{
+    margin-right: 2rem;
+    margin-left: auto;
+  }
+#logo{
+    margin-left: 2rem;
+    font-family: 'Caveat', cursive;
+font-family: 'Potta One', cursive;
+}
+h1{
+    font-family: 'Potta One', cursive;
+}
+.nav-item{
+    color: white;
+}
+#login-button{
+    display:none;
+    font-weight: bold;
+}
+/* nav bar ended */
+
+#search-box{
+    width: 25rem;
+    padding: 7px;
+    border: solid grey 2px;
+    border-radius: 5px;
+    color: blue;
+}
+#find-btn{
+    padding: 7px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.footer-color{
+    background: #0274d89c;
+}
+
+.card:hover{
+    border: 2px solid #0274d8;;
+}
+@media(max-width:768px){
+    #login-button{
+        display: block;
+    }
+    #nav-item-button{
+        display: none;
+    }
+    #search-box{
+        width: 19rem;
+        display: block;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
