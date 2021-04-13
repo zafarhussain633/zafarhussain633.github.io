@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2rem;
+    background-color: rgba(222, 184, 135, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.view{
+    margin: auto;
+    width: 50%;
+    background-color: rgba(252, 58, 58, 0.596);
+    padding: 10px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.507);
+
+}
+
+
+
+h1{
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.view > div{
+    text-align: center;
+}
+.getInput{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 2.5rem;
+    
+}
+
+
+.getInput>div>input{
+ font-size: 1.2rem;
+ padding: 0.5rem;
+ border-bottom: 2px solid black;
+ border-top: transparent;
+ border-right: transparent;
+ border-left: transparent;
+ 
+}
+.getInput>div{
+    text-align: center;
+}
+
+input[type="search"]::placeholder { 
+    text-align: center;
+    color: rgba(0, 0, 255, 0.699);
+}
+
+button{
+    font-size: 12px;
+    padding: 0.5rem;
+    background-color: rgba(21, 21, 26, 0.699);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+   }
+   
+/*css for cards  */
+#DispCity{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.733);
+    font-weight: normal;
+}
+#Dispcountry{
+    font-size: 1.2rem;
+    background-color: rgba(10, 10, 10, 0.658);
+    color: white;
+    padding: 2px;
+    border-radius: 3px;
+    font-family:sans-serif;
+    margin: 4px;
+
+    
+}
+#date{
+    font-size: 14px;
+    font-family: Calibri;
+    word-spacing: 3px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.555);
+
+}
+
+#result{
+    font-size: 3.5rem;
+    color: rgba(0, 0, 0, 0.836);
+}
+
+sup{
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.836);
+  
+}
+
+
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+#desc{
+    font-size: 14px;
+    font-family: helvetica;
+    color: rgba(0, 0, 0, 0.719);
+    display: block;
+    position: relative;
+    margin-top: -25px;
+}
+
+
+/* media query */
+@media screen and (max-width: 500px) {
+    .view{
+        margin: auto;
+        width: 90%;
+        background-color: rgba(255, 255, 255, 0.021);
+        padding: 5px;
+        box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.507);
+    
+    }
+    .row2{
+     
+        margin: 0.3rem;
+    }
+    #result{
+        font-size: 3rem;
+        color: rgba(0, 0, 0, 0.836);
+    }
+    button{
+        font-size: 0.7rem;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    
+    
+  }
+  @media screen and (min-width: 500px){
+    .view{
+        width: 50%;
+       
+    }
+  }
+
+  @media screen and (min-width: 800px){
+    .view{
+        width: 25%;
+       
+    }
+  }

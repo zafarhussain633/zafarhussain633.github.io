@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <div class="getInput">
+        <h1>Weather App</h1>
+        <label for="cityName"></label>
+        <div><input type="search" id="cityName" name="cityName" placeholder="Enter Your city"> <span><b>OR</b>
+         <button id="userLocation">Allow  <i class="fa fa-map-marker" aria-hidden="true"></i>
+         </button></span></div>
+    </div>
+
+    <div class="view">
+
+        <div class="row">
+           
+            <div class="row1">
+                <span id="DispCity">city</span><sup id="Dispcountry"></sup>
+                <p id="date">date</p>
+                <div class="row2">
+                    <div>
+                        <img src="#" id="icon">
+                        <span id="desc"></span>
+                    </div> 
+                    <div>
+                        <h2><b id="result">result</b><sup>&#176c</sup></h2>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+   
+
+    <script src="app.js"></script>
+</body>
+
+</html>
