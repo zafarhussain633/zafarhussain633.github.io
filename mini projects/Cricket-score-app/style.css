@@ -1,34 +1,4 @@
-/* 
 
-
-
-#teams{
-    background-color: yellow;
-}
-
-
-.target>div>li{
-    float: right;
-    background-color: rgba(255, 0, 0, 0.89);
-    padding-left: 8px;
-    padding-right: 8px;
-    color: white;
- 
-}
-
-
-
-
-
-
-
-h2{
-    color: rgba(2, 0, 5, 0.616);
-}
-
-
-
-*/
 *{
     padding: 0px;
     margin: 0px;
@@ -82,3 +52,10 @@ nav>a>i{
           opacity: 0;
         }
 }
+.line{  /* belong to javascript file  */
+  
+        white-space: nowrap;
+        overflow: hidden;
+     
+}
+
