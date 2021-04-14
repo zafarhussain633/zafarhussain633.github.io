@@ -2,6 +2,8 @@ const API_KEY = "1MFqbabMc8WiKqJira7sl6M5b6P2";
 const uniqueId = [];
 document.getElementById("upcoming").addEventListener("click", UpcomingIplMatch)
 
+
+//funciton for upcoming ipl matches 
 function UpcomingIplMatch() {
     fetch(`https://cricapi.com/api/matches?apikey=${API_KEY}`)
         .then(res => res.json())
@@ -15,13 +17,14 @@ function UpcomingIplMatch() {
                         let team2 = res.matches[i]["team-2"];
                         let time = new Date(res.matches[i].dateTimeGMT.toString())
                         let newTime = time.toLocaleString();
-                        //console.log(res.matches[i])
+                    
+                         let teamLogo = logo(res.matches[i]["team-1"], res.matches[i]["team-2"])
                         document.querySelector("#UpcomingMatch-list").innerHTML = output +=
-                            `<div class="card p-4 m-2 " style="width: 18rem">
-                            <img class="card-img-top" src="https://i.pinimg.com/originals/a2/20/30/a220301dbfa84edd4ffc6ce9bb528841.png" alt="Card image cap">
+                            `<div class="card m-2 " style="width: 19rem" id="upcomingMatchCard">
                             <div class="card-body">
-                              <h5 class="card-title">${team1} vs ${team2}</h5>
-                              <p class="card-text">${newTime}</p>
+                              <div class="line"><img src=${teamLogo[0]} width="30px" class="mr-2">${team1}</div>
+                              <div class="line"><img src=${teamLogo[1]} width="30px" class="mr-2">${team2}</div>
+                              <div class="text-secondary mt-1 text-center "><small>${newTime}</small></div>
                             </div>
                           </div>`
 
@@ -30,7 +33,7 @@ function UpcomingIplMatch() {
             }
 
         }).catch(err => {
-            alert('something went wrong')
+            alert('something went wrong',err)
         })
 
 }
@@ -143,7 +146,7 @@ function logo(team1, team2) {
 
     let team1_logo = null;
     if (t1.match("rajasthan")) {
-        team1_logo = 'logo/rajsathan.png'
+        team1_logo = 'logo/rajasthan.png';
     } else if (t1.match("delhi")) {
         team1_logo = 'logo/delhi.png'
     } else if (t1.match("mumbai")) {
@@ -163,7 +166,7 @@ function logo(team1, team2) {
 
     let team2_logo = null;
     if (t2.match("rajasthan")) {
-        team2_logo = 'logo/rajsathan.png'
+        team2_logo = 'logo/rajasthan.png'
     } else if (t2.match("delhi")) {
         team2_logo = 'logo/delhi.png'
     } else if (t2.match("mumbai")) {
