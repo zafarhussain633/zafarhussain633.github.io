@@ -139,7 +139,7 @@ function getScore(id) {
 
 
 
-// team log area 
+// team logo area 
 function logo(team1, team2) {
     let t1 = team1.toLowerCase();
     let t2 = team2.toLowerCase();
@@ -160,7 +160,7 @@ function logo(team1, team2) {
     } else if (t1.match("hyderabad")) {
         team1_logo = "logo/hyderabad.PNG"
     } else if (t1.match("bangalore")) {
-        team1_logo = "logo/bangalore.PNG"
+        team1_logo = "logo/bangalore.png"
     }
 
 
