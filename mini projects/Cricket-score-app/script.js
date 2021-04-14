@@ -160,7 +160,7 @@ function logo(team1, team2) {
     } else if (t1.match("hyderabad")) {
         team1_logo = "logo/hyderabad.PNG"
     } else if (t1.match("bangalore")) {
-        team1_logo = "logo/bangalore.png"
+        team1_logo = "logo/bangalore.PNG"
     }
 
 
