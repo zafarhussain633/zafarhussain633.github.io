@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(31, 161, 194, 0.247);
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Syne Mono', monospace;
+    color: rgb(14, 99, 196);
+    
+    
+}
+input{
+    background-color: crimson;
+}
+#calculator{
+    margin: auto;
+    width:50%;
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 1.5rem;
+    margin-top: 15vh;
+}
+.bmi-input{
+    padding: 14px;
+    font-size: 1.3rem;
+}
+
+#weight,#height{
+    width: 100%;
+}
+
+.result{
+    color: rgba(29, 13, 253, 0.973);
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: inline;
+    float: right; 
+}
+.pointer_child1{
+margin-left: -25px;
+font-size: 14px;
+font-weight: bold;
+display: inline;
+border: 2px solid rgb(23, 23, 207);
+border-radius: 5px;
+padding: 4px;
+
+}
+.pointer_child2{
+width: 2px;
+height: 15px;
+background-color: blue;
+margin-top: 4px;
+}
+
+#resultMeter{
+display: grid;
+grid-template-columns: 20% 20% 25% 35%;
+width: 100%;
+margin: auto;
+
+}
+#resultMeter>div{
+   padding: 2px;
+   padding-left: 1rem;
+}
+
+#pointer_result{
+   width: 80%;
+}
+li{
+    margin: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.less{
+     
+    border-top: solid 6px rgb(228, 13, 13);;
+}
+.normal{
+    border-top: solid 6px rgba(12, 211, 12, 0.89);
+}
+.over{
+    
+    border-top: solid 6px rgb(241, 241, 24);
+}
+.obesity{ 
+    border-top: solid 6px rgb(216, 3, 3);
+}
+
+
+@media(max-width:600px){
+h1{
+    font-size: 1.1rem;
+}
+#calculator{
+    width:90%;
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 1.5rem;
+}
+.bmi-input{
+    padding: 8px;
+    font-size: 1.1rem;
+}
+.result{
+    font-weight: bold;
+    font-size: 15px;
+}
+}

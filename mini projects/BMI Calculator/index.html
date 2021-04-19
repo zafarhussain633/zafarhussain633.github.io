@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bmi calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    
+    <div id="calculator">
+        <h1>BMI Calculator</h1>
+        <form action="">
+        <div class="bmi-input">
+            <label for="weight">Body Weight</label> <small class="result" ><b id="weight-kg">65</b> kg / <b id="weight-lbs">143.3</b> lbs</small><br>
+            <input type="range" name="weight" id="weight"  min ="0" max ="200" value="65">
+        </div>
+            
+        <div class="bmi-input">
+            <label for="height">Body height</label><small class="result"><b id="height-cm">152</b> cm / <b id="height-foot">4" 10'</b></small><br>
+            <input type="range" name="height" id="height"  min ="0" max ="300" value="152" step="0.1">
+        </div>
+    </form>
+        <div>
+            <div id="pointer_result">
+                <div>
+                <p class="pointer_child1"> <b id="pointer_final_result">0</b> <span>kg/m<sup>2</sup></span></p>
+                <p class="pointer_child2"></p>
+                </div>
+             </div>
+        <div id="resultMeter">
+            <div class="less">Less</div>
+            <div class="normal">Normal</div>
+            <div class="over">Over</div>
+            <div class="obesity">Obesity</div>
+        </div>
+      </div>
+    <div style="margin: 1rem">
+        <strong  id="finalResult">Result</strong>
+        <li>BMI range 1-19  <b style="color:red">Thinny</b></li>
+        <li>BMI range 19-26 <b style="color:rgb(32, 170, 19)">Healthy</b></li>
+        <li>BMI range 26-40 <b style="color:rgb(202, 157, 9)">Over Weight</b></li>
+        <li>BMI range 40-100 <b style="color:rgb(196, 12, 12)">Obesity</b></li>
+    </div>
+    </div>
+    
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
