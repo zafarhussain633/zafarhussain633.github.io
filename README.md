@@ -1,1 +1,1 @@
-# each folder contain individual projects
+# each folder contain individual small projects
